@@ -1,6 +1,6 @@
 FROM mongo
 
-LABEL Author="Thomas Liebberger - thomas.liebberger@botfriends.de"
+LABEL Author="Thomas Liebberger - thomasliebberger@gmail.com"
 
 
 EXPOSE 27017 27017
