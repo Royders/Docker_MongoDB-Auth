@@ -16,5 +16,5 @@ $cmd &
 if [ ! -f /data/db/.mongodb_password_set ]; then
     /create_user.sh
 fi
-
+echo "MongoDB configured successfully. You may now connect to the DB."
 fg
