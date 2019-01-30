@@ -11,6 +11,9 @@ fi
 #set ip binding
 cmd="$cmd --bind_ip_all"
 
+#enable tls
+cmd="$cmd --bind_ip_all"--sslDisabledProtocols none
+
 $cmd &
 
 if [ ! -f /data/db/.mongodb_password_set ]; then
