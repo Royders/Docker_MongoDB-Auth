@@ -14,7 +14,7 @@ cmd="$cmd --bind_ip_all"
 $cmd &
 
 if [ ! -f /data/db/.mongodb_password_set ]; then
-    /set_mongodb_password.sh
+    /create_user.sh
 fi
 
 fg
