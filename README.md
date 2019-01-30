@@ -20,7 +20,6 @@ There are a number of environment variables which you can specify to customize t
   
 - With docker-compose.yml
   ```
-  // Build docker Image first with docker build. -t mongoauth:1.0.0
   services:
     db:
       image: aashreys/mongo-auth:latest
